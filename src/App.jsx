@@ -8,7 +8,12 @@ import Loader from "./components/Loader";
 import Home from "./pages/Home";
 import WhatWeDo from "./pages/WhatWeDo";
 import Services from "./pages/Services";
+import CSR from "./pages/CSR";
+import Calculator from "./pages/Calculator";
+
 import Contact from "./pages/Contact";
+
+
 
 export default function App() {
   const [loading, setLoading] = useState(true);
@@ -32,6 +37,8 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/what-we-do" element={<WhatWeDo />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/csr" element={<CSR />} />
+        <Route path="/calculator" element={<Calculator />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />

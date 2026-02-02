@@ -11,13 +11,15 @@ export default function Navbar() {
         
         {/* Logo */}
         <Link to="/" className="text-2xl font-bold">
-          Suryagrid <span className="text-yellow-400">Solar</span>
+          Suryagrid <span className="text-yellow-400">Energy</span>
         </Link>
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex gap-8 font-medium">
           <Link className="hover:text-yellow-400 transition" to="/">Home</Link>
           <Link className="hover:text-yellow-400 transition" to="/services">Services</Link>
+          <Link className="hover:text-yellow-400 transition" to="/csr">CSR</Link>
+          <Link className="hover:text-yellow-400 transition" to="/calculator">Calculator</Link>
           <Link className="hover:text-yellow-400 transition" to="/what-we-do">What We Do</Link>
           <Link className="hover:text-yellow-400 transition" to="/contact">Contact</Link>
         </nav>
@@ -63,6 +65,21 @@ export default function Navbar() {
           >
             What We Do
           </Link>
+
+          <Link
+  to="/csr"
+  onClick={() => setMenuOpen(false)}
+  className="block px-6 py-4 border-b border-white/10 hover:bg-white/10"
+>
+  CSR
+</Link>
+            <Link
+  to="/calculator"
+  onClick={() => setMenuOpen(false)}
+  className="block px-6 py-4 border-b border-white/10 hover:bg-white/10"
+>
+  Calculator
+</Link>
 
           <Link
             to="/contact"
