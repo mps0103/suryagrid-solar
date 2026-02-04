@@ -3,6 +3,9 @@ import solar1 from "../assets/hero/solar1.jpg";
 import solar2 from "../assets/hero/solar2.jpg";
 import solar3 from "../assets/hero/solar6.jpg";
 
+import { Link } from "react-router-dom";
+
+
 const images = [solar1, solar2, solar3];
 
 export default function Home() {
@@ -45,12 +48,12 @@ export default function Home() {
               businesses, and housing societies across India.
             </p>
             <div className="mt-8">
-              <a
-                href="/contact"
-                className="inline-block bg-yellow-400 text-black px-8 py-3 rounded-md font-semibold hover:bg-yellow-300 transition"
-              >
-                Get Free Consultation
-              </a>
+              <Link
+  to="/contact"
+  className="inline-block bg-yellow-400 text-black px-6 py-3 rounded-md font-semibold hover:bg-yellow-300 transition"
+>
+  Get Free Consultation
+</Link>
             </div>
           </div>
         </div>
