@@ -146,6 +146,7 @@ export default function Services() {
           <ul className="list-disc pl-5 text-gray-700 space-y-2">
             <li>1 kW system: ₹85,000 – ₹1,00,000</li>
             <li>2 kW system: ₹1.6 – ₹2.2 lakh</li>
+            <li>3 kW system: ₹2.5 – ₹3.1 lakh</li>
             <li>4 kW system: ₹3.2 – ₹4.5 lakh</li>
           </ul>
 

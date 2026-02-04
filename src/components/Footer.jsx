@@ -54,38 +54,6 @@ export default function Footer() {
   </div>
 
   {/* ROW 3 */}
-  <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
-    <div className="text-white font-semibold">
-      NCR, Braj & Central UP
-    </div>
-    <div>Meerut</div>
-    <div>Ghaziabad</div>
-    <div>Greater Noida</div>
-    <div></div>
-    <div>Hapur</div>
-    <div>Bulandshahr</div>
-    <div>Muzaffarnagar</div>
-    <div></div>
-    <div>Saharanpur</div>
-    <div>Shamli</div>
-    <div>Baghpat</div>
-    <div></div>
-    <div>Agra</div>
-    <div>Mathura</div>
-    <div>Aligarh</div>
-    <div></div>
-    <div>Hathras</div>
-    <div>Firozabad</div>
-    <div>Etah</div>
-    <div></div>
-    <div>Kasganj</div>
-    <div>Mainpuri</div>
-    <div>Farrukhabad</div>
-    <div></div>
-    <div>Kannauj</div>
-    <div>Etawah</div>
-    <div>Auraiya</div>
-  </div>
 
 </div>
 

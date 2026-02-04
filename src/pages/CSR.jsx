@@ -71,7 +71,7 @@ export default function CSR() {
             </p>
           </div>
 
-          <div className="w-full h-64 rounded-xl overflow-hidden">
+          <div className="w-full h-70 rounded-xl overflow-hidden">
             <img
               src={csrAgri}
               alt="CSR support for agripreneurs"

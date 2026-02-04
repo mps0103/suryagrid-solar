@@ -2,6 +2,9 @@ import { useEffect, useState } from "react";
 import solar1 from "../assets/hero/solar1.jpg";
 import solar2 from "../assets/hero/solar2.jpg";
 import solar3 from "../assets/hero/solar6.jpg";
+import residentialImg from "../assets/home/residential-solar.png";
+import commercialImg from "../assets/home/commercial-solar.png";
+import housingImg from "../assets/home/housing-society-solar.png";
 
 import { Link } from "react-router-dom";
 
@@ -60,48 +63,77 @@ export default function Home() {
       </section>
 
       {/* OFFERINGS */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-6">
-            Our Solar Offerings
+    {/* ================= SOLAR OFFERINGS ================= */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-6">
+
+          <h2 className="text-3xl font-bold text-[#0B1F3B] text-center mb-14">
+            Our Solar Solutions
           </h2>
-          <p className="text-center text-gray-600 max-w-3xl mx-auto mb-12">
-            End-to-end solar solutions designed to meet residential, commercial,
-            and housing society energy needs.
-          </p>
 
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white p-8 rounded-xl shadow">
-              <h3 className="text-xl font-semibold mb-3">
-                Residential Solar
-              </h3>
-              <p className="text-gray-600">
-                Rooftop solar systems that reduce electricity bills and increase
-                energy independence.
-              </p>
+          <div className="space-y-16">
+
+            {/* Residential Solar */}
+            <div className="grid md:grid-cols-2 gap-10 items-center">
+              <img
+                src={residentialImg}
+                alt="Residential rooftop solar system"
+                className="w-full h-70 object-cover rounded-2xl"
+              />
+              <div>
+                <h3 className="text-2xl font-semibold mb-4">
+                  Residential Solar
+                </h3>
+                <p className="text-gray-600">
+                  Clean, affordable solar solutions for independent homes and
+                  villas. Reduce your electricity bills and gain energy
+                  independence with systems designed for Indian rooftops.
+                </p>
+              </div>
             </div>
 
-            <div className="bg-white p-8 rounded-xl shadow">
-              <h3 className="text-xl font-semibold mb-3">
-                Commercial Solar
-              </h3>
-              <p className="text-gray-600">
-                Scalable solar solutions for offices, factories, and institutions.
-              </p>
+            {/* Commercial Solar */}
+            <div className="grid md:grid-cols-2 gap-10 items-center">
+              <img
+                src={commercialImg}
+                alt="Commercial solar power plant"
+                className="w-full h-70 object-cover rounded-2xl"
+              />
+              <div>
+                <h3 className="text-2xl font-semibold mb-4">
+                  Commercial Solar
+                </h3>
+                <p className="text-gray-600">
+                  Scalable solar solutions for offices, factories, warehouses,
+                  and commercial buildings to significantly lower operational
+                  energy costs.
+                </p>
+              </div>
             </div>
 
-            <div className="bg-white p-8 rounded-xl shadow">
-              <h3 className="text-xl font-semibold mb-3">
-                Housing Societies
-              </h3>
-              <p className="text-gray-600">
-                Centralized solar power for apartments and gated communities with
-                strong ROI.
-              </p>
+            {/* Housing Societies */}
+            <div className="grid md:grid-cols-2 gap-10 items-center">
+              <img
+                src={housingImg}
+                alt="Solar installation for housing societies"
+                className="w-full h-70 object-cover rounded-2xl"
+              />
+              <div>
+                <h3 className="text-2xl font-semibold mb-4">
+                  Housing Societies
+                </h3>
+                <p className="text-gray-600">
+                  Smart solar solutions for apartments and housing societies,
+                  powering common areas and reducing shared electricity
+                  expenses.
+                </p>
+              </div>
             </div>
+
           </div>
         </div>
       </section>
+
 
       {/* About Us Section */}
 <section className="about-section">
@@ -138,6 +170,12 @@ export default function Home() {
       installing solar systems — we are helping build an energy-independent,
       environmentally responsible, and self-reliant India.
     </p>
+
+    <p className="about-highlight">
+        •  Mission: Enable solar adoption while creating ecopreneurs and agripreneurs.
+
+    </p>
+    <p className="about-highlight" >•  Vision: Sustainable communities powered by clean energy.</p>
   </div>
 </section>
 

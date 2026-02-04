@@ -1,9 +1,9 @@
 import { useState } from "react";
 
-import heroImg from "../assets/calculator/calculator-hero.png";
+import heroImg from "../assets/calculator/commercial-solar.png";
 import smartImg from "../assets/calculator/calculator-info.png";
 import whyUsImg from "../assets/calculator/calculator-hero.png";
-
+import logo from "../assets/logo.png"
 
 export default function Calculator() {
   const [bill, setBill] = useState("");
@@ -24,7 +24,7 @@ export default function Calculator() {
 
     const systemSize = Math.ceil(yearlyUnits / 1500);
     const roofArea = systemSize * 100;
-    const costPerKW = 60000;
+    const costPerKW = 80000;
     const baseCost = systemSize * costPerKW;
 
     const subsidy =
