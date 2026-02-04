@@ -17,70 +17,92 @@ export default function Footer() {
         </div>
 
         {/* CITIES GRID */}
-        <div className="grid gap-10 md:grid-cols-3">
+        {/* CITIES GRID */}
+       {/* CITIES GRID – ALIGNED LIKE SCREENSHOT */}
+<div className="space-y-12">
 
-          {/* CORE CITIES */}
-          <div>
-            <h4 className="text-lg font-semibold text-white mb-4">
-              Key Cities We Serve
-            </h4>
-            <ul className="space-y-2">
-              <li>Delhi</li>
-              <li>Mumbai</li>
-              <li>Noida (Gautam Buddh Nagar, UP)</li>
-            </ul>
-          </div>
+  {/* ROW 1 */}
+  <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+    <div className="text-white font-semibold">
+      Key Cities We Serve
+    </div>
+    <div>Delhi</div>
+    <div>Mumbai</div>
+    <div>Noida (Gautam Buddh Nagar, UP)</div>
+  </div>
 
-          {/* WEST & ROHILKHAND */}
-          <div>
-            <h4 className="text-lg font-semibold text-white mb-4">
-              North & West Uttar Pradesh
-            </h4>
-            <ul className="space-y-2">
-              <li>Bareilly</li>
-              <li>Pilibhit</li>
-              <li>Shahjahanpur</li>
-              <li>Budaun</li>
-              <li>Rampur</li>
-              <li>Moradabad</li>
-              <li>Amroha</li>
-              <li>Bijnor</li>
-              <li>Sambhal</li>
-            </ul>
-          </div>
+  {/* ROW 2 */}
+  <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+    <div className="text-white font-semibold">
+      North & West Uttar Pradesh
+    </div>
+    <div>Bareilly</div>
+    <div>Pilibhit</div>
+    <div>Shahjahanpur</div>
+    <div></div>
+    <div>Budaun</div>
+    <div>Rampur</div>
+    <div>Moradabad</div>
+    <div></div>
+    <div>Amroha</div>
+    <div>Bijnor</div>
+    <div>Sambhal</div>
+  </div>
 
-          {/* NCR, BRAJ & DOAB */}
-          <div>
-            <h4 className="text-lg font-semibold text-white mb-4">
-              NCR, Braj & Central UP
-            </h4>
-            <ul className="space-y-2">
-              <li>Meerut</li>
-              <li>Ghaziabad</li>
-              <li>Greater Noida</li>
-              <li>Hapur</li>
-              <li>Bulandshahr</li>
-              <li>Muzaffarnagar</li>
-              <li>Saharanpur</li>
-              <li>Shamli</li>
-              <li>Baghpat</li>
-              <li>Agra</li>
-              <li>Mathura</li>
-              <li>Aligarh</li>
-              <li>Hathras</li>
-              <li>Firozabad</li>
-              <li>Etah</li>
-              <li>Kasganj</li>
-              <li>Mainpuri</li>
-              <li>Farrukhabad</li>
-              <li>Kannauj</li>
-              <li>Etawah</li>
-              <li>Auraiya</li>
-            </ul>
-          </div>
+  {/* ROW 3 */}
+  <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
+    <div className="text-white font-semibold">
+      NCR, Braj & Central UP
+    </div>
+    <div>Meerut</div>
+    <div>Ghaziabad</div>
+    <div>Greater Noida</div>
+    <div></div>
+    <div>Hapur</div>
+    <div>Bulandshahr</div>
+    <div>Muzaffarnagar</div>
+    <div></div>
+    <div>Saharanpur</div>
+    <div>Shamli</div>
+    <div>Baghpat</div>
+    <div></div>
+    <div>Agra</div>
+    <div>Mathura</div>
+    <div>Aligarh</div>
+    <div></div>
+    <div>Hathras</div>
+    <div>Firozabad</div>
+    <div>Etah</div>
+    <div></div>
+    <div>Kasganj</div>
+    <div>Mainpuri</div>
+    <div>Farrukhabad</div>
+    <div></div>
+    <div>Kannauj</div>
+    <div>Etawah</div>
+    <div>Auraiya</div>
+  </div>
 
-        </div>
+</div>
+
       </div>
+
+      <div className="w-full flex justify-center gap-6 mt-4">
+  <a
+    href="/policy"
+    className="text-gray-400 hover:text-yellow-400 hover:underline transition font-medium"
+  >
+    Policy
+  </a>
+
+  <a
+    href="/disclaimer"
+    className="text-gray-400 hover:text-yellow-400 hover:underline transition font-medium"
+  >
+    Disclaimer
+  </a>
+</div>
+
 
       {/* BOTTOM BAR */}
       <div className="border-t border-white/10 py-6">

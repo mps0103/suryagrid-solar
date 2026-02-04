@@ -99,6 +99,45 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* About Us Section */}
+<section className="about-section">
+  <div className="about-container">
+    <h2>About Us</h2>
+
+    <p>
+      We are a solar energy company dedicated to empowering Indian households
+      with high-quality, affordable, and government-approved solar solutions.
+      Our goal is to support India’s transition towards clean energy by helping
+      families reduce electricity bills while contributing to a sustainable
+      future.
+    </p>
+
+    <p>
+      We actively work in alignment with Government of India renewable energy
+      initiatives, including <strong>PM Surya Ghar: Muft Bijli Yojana</strong>,
+      enabling homeowners to benefit from subsidies, net metering, and
+      simplified solar adoption. From consultation and system design to
+      installation and after-sales support, we provide end-to-end rooftop solar
+      solutions tailored for Indian homes and climatic conditions.
+    </p>
+
+    <p>
+      Beyond installations, we strongly believe in social responsibility and
+      nation-building. Through our CSR initiatives, we focus on creating
+      <strong> Ecopreneurs and Agripreneurs</strong> by promoting solar awareness,
+      skill development, and sustainable practices among youth, farmers, and
+      students.
+    </p>
+
+    <p className="about-highlight">
+      By combining technology, trust, and social impact, we are not just
+      installing solar systems — we are helping build an energy-independent,
+      environmentally responsible, and self-reliant India.
+    </p>
+  </div>
+</section>
+
     </main>
   );
 }

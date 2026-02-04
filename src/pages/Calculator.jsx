@@ -94,7 +94,7 @@ export default function Calculator() {
           <img
             src={smartImg}
             alt="Go solar the smart way"
-            className="w-56 mx-auto rounded-lg"
+            className="w-100 mx-auto rounded-lg"
           />
         </div>
       </section>
@@ -182,7 +182,7 @@ export default function Calculator() {
           <img
             src={whyUsImg}
             alt="Why choose Suryagrid Energy"
-            className="w-56 mx-auto rounded-lg"
+            className="w-80 mx-auto rounded-lg"
           />
         </div>
       </section>
